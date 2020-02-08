@@ -1,0 +1,9 @@
+com\ws\rpc\HelloWorldService.class
+main\Client.class
+com\ws\HelloWorldService.class
+com\ws\rpc\HelloWorldServiceImpl.class
+com\ws\HelloWorldServiceImpl.class
+main\TestWsService.class
+main\TestWs.class
+beans\Person.class
+main\Server.class

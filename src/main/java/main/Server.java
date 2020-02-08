@@ -2,6 +2,11 @@ package main;
 
 import org.apache.cxf.frontend.ServerFactoryBean;
 
+/** Apache cxf SOAP web service server
+ * 
+ * @author Vilas Sonawane
+ *
+ */
 public class Server {
 
 	public static void main(String[] args) {
@@ -10,6 +15,6 @@ public class Server {
 		sfBean.setServiceBean(new TestWsService());
 		sfBean.setAddress("http://localhost:5001/TestWs");
 		sfBean.create();
-		System.out.println("listening to port 5001");
+		System.out.println("*******listening to port 5001*****");
 	}
 }
